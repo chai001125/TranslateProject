@@ -193,7 +193,7 @@ CMD ["/usr/bin/node", "/var/www/app.js"]
 添加下面几行命令。我们将更新并安装 `vim` 和 `curl` 包：
 
 ```
-FROM alpine
+FROM alpine:3.19.1
 
 RUN apk update
 RUN apk add vim
